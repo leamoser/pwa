@@ -2,7 +2,7 @@
 In diesem Ordner ist alles für die Programmierübung eines PWA abgelegt.
 
 ## Ordner "Test-PWA_Ausgangslage"
-Mit diesen Dateien wird die Programmierung des PWA gestartet, instruktionen folgen im Untericht. Bitte öffnet diese Dateien dann im Atom und lädt sie per FTP-Config auf einen Server (sonst geht das mit dem PWA leider nicht). 
+Mit diesen Dateien wird die Programmierung des PWA gestartet, Instruktionen folgen im Unterricht. Bitte öffnet diese Dateien dann im Atom und lädt sie per FTP-Config auf einen Server (sonst geht das mit dem PWA leider nicht). 
 
 Für jene dies nicht mehr ganz präsent haben, hier die Angaben die in der FTP-Config Datei gemacht werden müssen:
 
