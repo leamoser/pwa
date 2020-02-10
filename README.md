@@ -1,5 +1,6 @@
 # PWA Webtech 2020
-In diesem Ordner ist alles für die Programmierübung eines PWA abgelegt. Hier findet ihr ausserdem die Präsi als PDF.
+In diesem Repository sind alle Dateien für die PWA-Übung abgelegt. Einfach als ZIP runterladen und lokal bei euch speichern.
+Plus findet ihr hier die Präsi mit der Theorie.
 [Link zur Präsi](http://lea-moser.ch/webtech-mmp18_leamoser_pwa.pdf)
 
 ## Ordner "Test-PWA_Ausgangslage"
