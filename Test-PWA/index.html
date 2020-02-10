@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Test PWA WebTech</title>
+        <meta name="description" content="Das ist ein Test">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/icons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="subpage1.html">Unterseite 1</a></li>
+                <li><a href="subpage2.html">Unterseite 2</a></li>
+            </ul>
+        </nav>
+        <h1>Mein PWA</h1>
+        <h4>Startseite</h4>
+        <img src="img/goat.jpg">
+        <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+        <p>The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me?" he thought.</p>
+    </body>
+    <script>
+      if ("serviceWorker" in navigator) {
+        if (navigator.serviceWorker.controller) {
+          console.log("[PWA Builder] active service worker found, no need to register");
+        } else {
+          navigator.serviceWorker
+            .register("pwabuilder-sw.js", {
+              scope: "/"
+            })
+            .then(function (reg) {
+              console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
+            });
+        }
+      }
+    </script>
+</html>
