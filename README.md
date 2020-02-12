@@ -21,8 +21,8 @@ Grundlage
 1. Programmiert eine Responsive Webseite und lädt diese auf einen Webserver (wenn's ein HTW-Server ist in's Web-Verzeichnis).
 
 Manifest & Icons
-2. Erstellt im Ordner, wo ihr die Webseite programmiert habt, einen Ordner **Icons**. 
-3. Geht auf diese Webseite (https://www.favicon-generator.org/) und lädt das Icon hoch, das nachher euer Appicon sein soll. Die Häckchen unten könnt ihr ignorieren, die stimmen standartmässig.
-4. Dann auf **Create Favicon** klicken und warten.
-5. Lädt dann einerseits die generierten Icons runter (in dem ZIP, dass ihr runterlädt ist dann auch das Manifest drin) und kopiert den generierten Quellcode in den Head eurer Seite (muss auf jeder Unterseite eingefügt werden). 
-6. 
+1. Erstellt im Ordner, wo ihr die Webseite programmiert habt, einen Ordner **Icons**. 
+2. Geht auf diese Webseite (https://www.favicon-generator.org/) und lädt das Icon hoch, das nachher euer Appicon sein soll. Die Häckchen unten könnt ihr ignorieren, die stimmen standartmässig.
+3. Dann auf **Create Favicon** klicken und warten.
+4. Lädt dann einerseits die generierten Icons runter (in dem ZIP, dass ihr runterlädt ist dann auch das Manifest drin) und kopiert den generierten Quellcode in den Head eurer Seite (muss auf jeder Unterseite eingefügt werden). 
+5. 
