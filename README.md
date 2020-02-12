@@ -14,3 +14,15 @@ Für jene dies nicht mehr ganz präsent haben, hier die Angaben die in der FTP-C
 
 ## Ordner "Test-PWA"
 Das ist das fertige PWA, also die Lösung :) 
+
+# Ein PWA Schritt für Schritt
+Da es mit der Anleitung in der Präsi einige Probleme gegeben hat (war glaubs zu wenig ausführlich) ergänze ich hier noch eine Ausführliche Schritt für Schritt Anleitung. 
+Grundlage
+1. Programmiert eine Responsive Webseite und lädt diese auf einen Webserver (wenn's ein HTW-Server ist in's Web-Verzeichnis).
+
+Manifest & Icons
+2. Erstellt im Ordner, wo ihr die Webseite programmiert habt, einen Ordner **Icons**. 
+3. Geht auf diese Webseite (https://www.favicon-generator.org/) und lädt das Icon hoch, das nachher euer Appicon sein soll. Die Häckchen unten könnt ihr ignorieren, die stimmen standartmässig.
+4. Dann auf **Create Favicon** klicken und warten.
+5. Lädt dann einerseits die generierten Icons runter (in dem ZIP, dass ihr runterlädt ist dann auch das Manifest drin) und kopiert den generierten Quellcode in den Head eurer Seite (muss auf jeder Unterseite eingefügt werden). 
+6. 
