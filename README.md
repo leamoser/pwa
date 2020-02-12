@@ -30,14 +30,16 @@ Da es mit der Anleitung in der Präsi einige Probleme gegeben hat (war glaubs zu
 6. Im ganzen Code (mit den Iconverlinkungen und so) den ihr vorher in euren Head eingefügt habt müsst ihr noch die Pfade anpassen, damit auch die richtigen Daten geladen werden. 
 7. Auch im Manifest müsst ihr die Pfade zu den Icons anpassen.
 8. Eränzt abschliessend noch folgende Angaben zuoberst in der Datei **manifest.json**.
-`"short_name" : "Kurzname",
+```
+"short_name" : "Kurzname",
 "lang" : "de-CH",
 "start_url" : "Url der Seite",
 "background_color" : "#3B46FF",
 "theme_color" : "#35CDE8",
 "display" : "standalone",
 "scope": "/",
-"generated" : "undefined",`
+"generated" : "undefined",
+```
 
 **Euer Manifest müsste jetzt richtig angezeigt werden**
 
